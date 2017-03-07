@@ -4,11 +4,15 @@ time hadoop jar /opt/cloudera/parcels/CDH-5.8.3-1.cdh5.8.3.p0.2/lib/hadoop-mapre
 #sort the created file time: 5m31.555s
 time hadoop jar /opt/cloudera/parcels/CDH-5.8.3-1.cdh5.8.3.p0.2/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar terasort /user/malexa123/test_file /user/malexa123/test_fileX
 
+
+#Checks
 [malexa123@ip-172-31-24-137 hadoop-mapreduce]$ hdfs dfs -ls /user/malexa123/test_file
 Found 3 items
 -rw-r--r--   3 malexa123 malexa123          0 2017-03-07 11:16 /user/malexa123/test_file/_SUCCESS
 -rw-r--r--   3 malexa123 malexa123 5000000000 2017-03-07 11:16 /user/malexa123/test_file/part-m-00000
 -rw-r--r--   3 malexa123 malexa123 5000000000 2017-03-07 11:16 /user/malexa123/test_file/part-m-00001
+
+
 [malexa123@ip-172-31-24-137 hadoop-mapreduce]$ hdfs dfs -ls /user/malexa123/test_fileX
 Found 12 items
 -rw-r--r--   1 malexa123 malexa123          0 2017-03-07 11:30 /user/malexa123/test_fileX/_SUCCESS
@@ -23,6 +27,8 @@ Found 12 items
 -rw-r--r--   1 malexa123 malexa123  997992200 2017-03-07 11:30 /user/malexa123/test_fileX/part-r-00007
 -rw-r--r--   1 malexa123 malexa123  984587700 2017-03-07 11:30 /user/malexa123/test_fileX/part-r-00008
 -rw-r--r--   1 malexa123 malexa123 1005651700 2017-03-07 11:30 /user/malexa123/test_fileX/part-r-00009
+
+
 [malexa123@ip-172-31-24-137 hadoop-mapreduce]$ hdfs dfs -ls /user/malexa123
 Found 4 items
 drwx------   - malexa123 malexa123          0 2017-03-07 11:03 /user/malexa123/.Trash
