@@ -1,3 +1,7 @@
+* In general with my setup it looks like best is 6Mappers 6Reducers and Container Memory 512GB - interesting looks like it's better for the system to save some memory? :)
+* However looks like changes in the script does not really affect the results - probably too less disks and worker nodes.
+
+
 [malexa123@ip-172-31-24-137 tmp]$ ./YARNtest.sh
 Testing loop started on Tue Mar 7 21:33:20 UTC 2017
 Mapper Container:2       Reducer Container:2    Container Memory:512      Mapper JVM:409      Reducer JVM:409
