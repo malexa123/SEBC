@@ -1,3 +1,4 @@
+```
 #generate 10GB File my time: 2m23.345s
 time hadoop jar /opt/cloudera/parcels/CDH-5.8.3-1.cdh5.8.3.p0.2/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar teragen -D dfs.block.size=33554432 100000000 /user/malexa123/test_file
 
@@ -36,3 +37,4 @@ drwx------   - malexa123 malexa123          0 2017-03-07 11:30 /user/malexa123/.
 drwxr-xr-x   - malexa123 malexa123          0 2017-03-07 11:16 /user/malexa123/test_file
 drwxr-xr-x   - malexa123 malexa123          0 2017-03-07 11:30 /user/malexa123/test_fileX
 [malexa123@ip-172-31-24-137 hadoop-mapreduce]$
+```
