@@ -1,6 +1,9 @@
 ```
 ## I like automating things in case it's possible :)
-cat /etc/sysconfig/selinux && cat /etc/rc.local && cat /sys/kernel/mm/transparent_hugepage/defrag && service nscd status && cat /etc/fstab && df -h && ifconfig -a && cat /etc/hosts && nslookup 172.31.30.231 && nslookup 172.31.24.214 && nslookup 172.31.17.193 && nslookup 172.31.24.137 && nslookup 172.31.25.165 && nslookup ip-172-31-24-214 && nslookup ip-172-31-30-231 && nslookup ip-172-31-17-193 && nslookup ip-172-31-24-137 && nslookup ip-172-31-25-165
+cat /etc/sysconfig/selinux && cat /etc/rc.local && cat /sys/kernel/mm/transparent_hugepage/defrag && service nscd status 
+&& cat /etc/fstab && df -h && ifconfig -a && cat /etc/hosts && nslookup 172.31.30.231 && nslookup 172.31.24.214 
+&& nslookup 172.31.17.193 && nslookup 172.31.24.137 && nslookup 172.31.25.165 && nslookup ip-172-31-24-214 
+&& nslookup ip-172-31-30-231 && nslookup ip-172-31-17-193 && nslookup ip-172-31-24-137 && nslookup ip-172-31-25-165
 
 # This file controls the state of SELinux on the system.
 # SELINUX= can take one of these three values:
