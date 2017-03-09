@@ -1,0 +1,4 @@
+[root@ip-172-31-30-231 ~]# cat /var/kerberos/krb5kdc/kadm5.acl
+*/admin@ZECMA.DOLE *
+cloudera-scm@ZECMA.DOLE admilc
+[root@ip-172-31-30-231 ~]#

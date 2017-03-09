@@ -1,0 +1,8 @@
+#create user + setup password and correct groups
+useradd -m malexa123
+usermod -G wheel malexa123
+passwd malexa123
+
+#create folder on HDFS side
+sudo -u hdfs hdfs dfs -mkdir /user/malexa123
+sudo -u hdfs hdfs dfs -chown malexa123:malexa123 /user/malexa123
