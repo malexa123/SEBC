@@ -22,4 +22,7 @@ gpgkey =https://archive.cloudera.com/cm5/redhat/7/x86_64/cm/RPM-GPG-KEY-cloudera
 gpgcheck = 1
 
 [root@ip-172-31-16-183 yum.repos.d]#
+
+/usr/share/cmf/schema/scm_prepare_database.sh mysql -f -h ip-172-31-22-93.eu-central-1.compute.internal -utemp -ptemp --scm-host ip-172-31-16-183.eu-central-1.compute.internal scm scm scm_password
+
 ```
